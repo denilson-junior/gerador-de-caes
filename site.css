@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+.main {
+    display: grid;
+    text-align: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.doggos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogs-img {
+    height: 50vh;
+    width: 50vw;
+    -webkit-box-shadow: 17px 10px 37px -2px rgba(0,0,0,0.59);
+    -moz-box-shadow: 17px 10px 37px -2px rgba(0,0,0,0.59);
+    box-shadow: 17px 10px 37px -2px rgba(0,0,0,0.59);
+}
+
+.add-doggo {
+    background-color: #6060f5;
+    padding-bottom: 62px;
+    padding-top: 40px;
+    font-size: 1.2em;
+    color: white;
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    -webkit-box-shadow: 17px 10px 37px -2px rgba(0,0,0,0.59);
+    -moz-box-shadow: 17px 10px 37px -2px rgba(0,0,0,0.59);
+    box-shadow: 17px 10px 37px -2px rgba(0,0,0,0.59);
+    font-weight: 700;
+}
+
+.add-doggo:hover {
+    background-color: #7373f1;
+}
+
+.add-doggo:active {
+    background-color: #3b3be2;
+}
+
+.texto__raca {
+    display: inline-grid;
+    margin-right: 15px;
+}
+
+#selecionar-raca {
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
